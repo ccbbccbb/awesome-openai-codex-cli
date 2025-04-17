@@ -1,0 +1,48 @@
+---
+description: This is for documentation
+globs: .mdx, .md
+alwaysApply: false
+---
+## Documentation Rules for **awesome-openai-codex-cli** Repository
+
+1. **Awesome‑List Structure**  
+   - Respect the badges (e.g., license, version, build status).  
+   - Include a concise description and a Table of Contents.  
+   - Divide content into clear H2 sections (e.g., TL;DR, Prompting Strategies, Integrations, Tools, Resources, Further Reading, Contributing).
+
+2. **Section Content & Ordering**  
+   - Order sections logically: introduction → usage → advanced tips → related projects → further reading → contribution.  
+   - Within each section, list entries **alphabetically**.  
+   - Each entry must have:  
+     - **Name** (linked)  
+     - **One‑line description** (what it is/does)  
+     - **Optional snippet** (if it clarifies usage)
+
+3. **Formatting & Style**  
+   - Use **bold** for UI elements and CLI commands (e.g., **`codex --help`**).  
+   - Use inline ``code`` for filenames, flags, or short commands.  
+   - Use fenced code blocks for longer examples.  
+   - Keep sentences short and in active voice.  
+   - Eliminate filler words—be direct and technical.
+
+4. **Entries & Examples**  
+   - Provide at least one realistic example per major feature or tool.  
+   - Show both command input and expected output where helpful.  
+   - Annotate examples to explain non‑obvious parts.
+
+5. **Links & Attribution**  
+   - Link directly to official sources (GitHub, OpenAI Docs, Cookbook).  
+   - For third‑party tools or community projects, verify their relevance and stability.  
+   - Credit sources whenever possible.
+
+6. **Consistency & Maintenance**  
+   - Apply the same heading levels and punctuation throughout.  
+   - Keep the list up to date with each release—remove or mark outdated entries.  
+   - Use a LICENSE badge and include an Apache‑2.0 license reference in the footer.
+
+7. **Contribution Guidelines**  
+   - Include a “Contributing” section with links to ISSUE_TEMPLATE and CODE_OF_CONDUCT.  
+   - Explain how to propose new entries (e.g., open a PR, follow the entry format).  
+   - Encourage alphabetical placement and test any example commands.
+
+> **Tip:** Treat this as you would any top‑starred Awesome list—focus on utility, clarity, and structure rather than volume.
