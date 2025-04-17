@@ -16,16 +16,16 @@
 </div>
 
 ```
-  ┌────────────────────────── Awesome OpenAI Codex CLI ────────────────────────────┐             
-  │                                                                                │
-  │   $ codex "make some ASCII art for my README.md file"                          │
-  │                                                                                │
-  │   $ codex "get me a link to the codex cli repo"                                │
-  │   > Here's a link to the codex cli repo: https://github.com/openai/codex       │                         
-  │                                                                                │
-  │   $ _                                                                          │
-  │                                                                                │
-  └────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────── Awesome OpenAI Codex CLI ────────────────────────────┐             
+│                                                                                │
+│   $ codex "make some ASCII art for my README.md file"                          │
+│                                                                                │
+│   $ codex "get me a link to the codex cli repo"                                │
+│   > Here's a link to the codex cli repo: https://github.com/openai/codex       │                         
+│                                                                                │
+│   $ _                                                                          │
+│                                                                                │
+└────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Table of Contents
@@ -53,10 +53,8 @@
   - [Custom Instructions](#custom-instructions)
   - [More Examples](#more-examples)
 - [Common Questions](#common-questions)
-  - [Troubleshooting Guide](#troubleshooting-guide)
   - [New Features & Integrations](#new-features--integrations)
-  - [Future Coverage](#future-coverage)
-- [Further Meaningful Reading](#further-meaningful-reading)
+- [Further Reading](#further-reading)
 - [Contributing](#contributing)
 - [Community](#community)
 - [License](#license)
@@ -64,11 +62,13 @@
 
 ## Introduction
 
-### **TLDR – natural language prompting codex in your terminal**
+### TLDR 
+
+#### Natural language prompting codex in your terminal
  
 Use simple prompts to set tasks in your terminalsuch as:
  
-    `codex 'write unit tests for utils/date.ts'` 
+    codex 'write unit tests for utils/date.ts'
 
 ### What does Codex do?
 
@@ -96,13 +96,18 @@ bun add -g @openai/codex
 
 > **Note:** `pnpm` is not officially recommended or tested by upstream docs; `bun` has been tested and works for global installs for the author of this repo.
 
-### **Method A • Permanent export in** `~/.zshrc` **or** `~/.bashrc`
+### Method A
+
+**Permanent export in** `~/.zshrc` **or** `~/.bashrc`
+
 ```bash
 export OPENAI_API_KEY="sk-proj-..."
 ```
 ***Effect:** Every new shell session (and any program you launch from it) will have this variable, but your key is potentially exposed (someone please correct this statement if we are being too paranoid).*
 
-### **Method B • One-off inline invocation**
+### Method B
+
+**One-off inline invocation**
 
 Apply the key only to **codex** across all sessions without exposing it elsewhere, wrap it in an alias in your shell:
 
@@ -112,11 +117,11 @@ Apply the key only to **codex** across all sessions without exposing it elsewher
 
 ***Effect:** `cod3x` is the only way to invoke `codex` with your key, and no other process will inherit it.*
 
-### Additional Codex CLI Examples
+### CLI Examples
 
 - [OpenAI Codex CLI Examples](https://github.com/openai/codex/tree/main/codex-cli/examples) - Example usage of the OpenAI Codex CLI
 
-**Quick Start Examples**
+### Quick Start Examples
   - [camerascii](https://github.com/openai/codex/tree/main/codex-cli/examples/camerascii) - Turn webcam feed into ASCII art
   - [build-codex-demo](https://github.com/openai/codex/tree/main/codex-cli/examples/build-codex-demo) - Recreate the 2021 Codex demo
   - [impossible-pong](https://github.com/openai/codex/tree/main/codex-cli/examples/impossible-pong) - Create challenging game levels
@@ -288,7 +293,7 @@ Highlights of bleeding-edge PRs in the upstream repo can be found in [PR-TRACKIN
 - Multi-model selection features
 - Observability and logging improvements
 
-## Further Meaningful Reading
+## Further Reading
 
 - [Machines of Loving Grace](https://www.darioamodei.com/essay/machines-of-loving-grace) - Dario Amodei
 
@@ -312,8 +317,6 @@ Read the [contribution guidelines](CONTRIBUTING.md) first.
 ## License
 
 This repository is distributed under the [CC0 1.0 Universal](LICENSE) license, following best practices for "awesome" lists (e.g., awesome-machine-learning). For details, see [LICENSE](LICENSE).
-
----
 
 ## Credits
 
