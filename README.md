@@ -93,9 +93,9 @@ Your contributions are always welcome! Please read the [contribution guidelines]
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## PR Tracking
+## Interesting PRs
 
-We use the GitHub MCP Server (https://github.com/openai/mcp) to discover, track, and review interesting PRs. See [PR-TRACKING.md](PR-TRACKING.md) for details.
+**Interesting PRs**: Might push workflow we use via `mcp.json` file with `npx` (stdio mode) for tracking interesting PRs. See [PR-TRACKING.md](PR-TRACKING.md) for details.
 
 ## License
 
@@ -108,3 +108,9 @@ This repository is distributed under the [CC0 1.0 Universal](LICENSE) license, f
 Curated with ❤️ by the community (with a subtle nod to SD and LP7)
 
 *Colors used in this document: #F7EE49 #4686C6 #F36525 #45B64A #EDB41F #EC2427 #A4DDE6*
+
+## TODO
+- (todo: add support for other shells after testing)
+- (todo: integrate GAMEPLAN-TO-FINISH.md plan items)
+- (todo: pull in CLI architecture overview from FINAL-CLAUDE.md)
+- (todo: include prompting guide snippets from PROMPTING.md)
