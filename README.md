@@ -21,7 +21,7 @@
 │   $ codex "make some ASCII art for my README.md file"                          │
 │                                                                                │
 │   $ codex "get me a link to the codex cli repo"                                │
-│   > Here's a link to the codex cli repo: https://github.com/openai/codex       │                         
+│   > Here's a link to the codex cli repo: https://github.com/openai/codex       │
 │                                                                                │
 │   $ _                                                                          │
 │                                                                                │
