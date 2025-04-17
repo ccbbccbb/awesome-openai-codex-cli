@@ -1,49 +1,37 @@
-# contributing to awesome-openai-codex-cli
+# contributing
 
-First of all, thank you for considering contributing to this list. This document provides guidelines and steps for contributing. Semi-reviewed it, cleaning up slop is in the works.
+thanks for helping improve openai-codex-cli. here's the tl;dr.
 
-## Steps to Contribute
+## quick start
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/ccbbccbb/awesome-openai-codex-cli.git`
-3. Create your feature branch: `git checkout -b feature/new-resource`
-4. Add your changes to the appropriate section
-5. Commit your changes: `git commit -m 'Add some resource'`
-6. Push to the branch: `git push origin feature/new-resource`
-7. Submit a pull request
+1. fork & clone
+2. `git checkout -b <feature>`
+3. make changes
+4. `git commit -m "<feat>: <verb> ..."`
+5. `git push`
+6. open a pull request
 
-## Guidelines for Adding Content
+## what to add & how
 
-- Make sure the resource is related to OpenAI Codex or relevant AI coding tools
-- Add new entries at the bottom of the relevant section
-- Follow the format: `- [Resource Name](link) - Brief description`
-- Avoid promotional or marketing language in descriptions
-- Ensure the description is clear, concise, and helpful
-- Check that all links are working and point to the correct location
-- Ensure your submission has not been added previously
+- relevant new updates to codex cli
+- new sections/integrations
+- fixes (links, docs, structure)
+- improvements to existing content
+- community stuff
+- tidy-ups
 
-## Types of Contributions
+when adding:
+- append to the right section
+- format: `- [name](url) – short note`
+- keep descriptions clear, non-promo
+- verify links work & aren't dupes
 
-We welcome the following types of contributions:
+## pull request
 
-- New resources, tools, libraries, and applications
-- New sections that are relevant to the topic
-- Improvements to existing sections
-- Fixes for broken links or outdated information
-- Better organization or categorization
+- title: what/where (e.g. `add xyz to tools`)
+- body: why it's useful
+- respond to reviews
 
-## Pull Request Process
+## code of conduct
 
-1. Ensure your PR title clearly describes the change (e.g., "Add XYZ resource to Tools section")
-2. Include a brief description in the PR explaining why this resource is valuable
-3. Wait for the maintainers to review your PR
-4. Address any requested changes
-5. Once approved, your contribution will be merged
-
-## Code of Conduct
-
-- Be respectful and inclusive in your language and examples
-- Provide constructive feedback when reviewing others' contributions
-- Focus on what is best for the community and users of this resource
-
-Thank you for your contributions to making this awesome list even more awesome! 
+be respectful and constructive.
